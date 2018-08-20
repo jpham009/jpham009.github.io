@@ -280,7 +280,10 @@ p {
     width: 100%;
     z-index: 999999;
 }
-
+.contact-me{
+    text-align: center;
+    
+}
 .colorlib-load {
     -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
     animation: 2000ms linear 0s normal none infinite running colorlib-load;
@@ -1174,7 +1177,9 @@ p {
 }
 
 .footer-contact-area .line-shape {
-    margin-left: 0;
+ 
+    text-align: center;
+
 }
 
 .footer-contact-area .heading-text > p {
