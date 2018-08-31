@@ -1088,3 +1088,18 @@ E
 }
 
 
+.grid1 { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 15%));
+  grid-gap: 10px;
+  height: 100px;
+
+  }
+.grid1 img {
+  height: 50px;
+  width: 50px;
+  justify-self: center;
+}
+
+
+
