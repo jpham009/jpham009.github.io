@@ -1168,3 +1168,14 @@ padding: 0 20% 0 20%;
 
 
 }
+
+.collab {
+
+   background: url(../images/011.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
+    height: 300px;
+}
