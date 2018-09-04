@@ -963,12 +963,13 @@ E
 */    background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     color: #cfcfcf;
-    height: 350px;
+    height: 600px;
     z-index: 1;
+    
 
 }
 
-.home-section-background:after {
+/*.home-section-background:after {
     position: absolute;
     background: rgba(0, 0, 0, .7);
     left: 0;
@@ -977,7 +978,7 @@ E
     height: 100%;
     content: "";
     z-index: -1;
-}
+}*/
 
 .display-table {
     display: table;
@@ -1171,11 +1172,22 @@ padding: 0 20% 0 20%;
 
 .collab {
 
-   background: url(../images/011.jpg);
+   background: url(../images/03.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
     height: 300px;
+}
+
+.ucr{
+ background: url(../images/04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
+    height: 300px;
+
 }
