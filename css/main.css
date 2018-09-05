@@ -953,8 +953,8 @@ E
 
 .home-section {
     height: 100%;
-}
 
+}
 .home-section-background {
     position: relative;
     background: url(../images/02.jpg);
@@ -1043,9 +1043,9 @@ E
     transition: all 0.4s ease-out;
 }
 
-.home-section-background{
-	padding: 75px;
-}
+/*.home-section-background{
+	padding: 125px;
+}*/
 
 
 @media only screen and (max-width: 767px) {
