@@ -1,13 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
-/*
-Template Name: Multi
-Version: 1.0
-Author: ShapeBootstrap
-Author URL: http://shapebootstrap.net
-*/
-/*************************
-*******Typography******
-**************************/
+
 body {
   padding-top: 100px;
   background: #fff;
@@ -64,63 +56,8 @@ hr {
   padding-bottom: 20px;
   margin: 0 0 40px;    
   text-shadow: 5px 10px 15px #CCCCCC;
+}
 
-
-}
-/*
-.column-title {
-  margin-top: 0;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 15px;
-  position: relative;
-}
-.column-title:after {
-  content: " ";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 40%;
-  border-bottom: 1px solid #45aed6;
-}*/
-/*ul.nostyle {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 20px;
-}
-ul.nostyle i {
-  color: #45aed6;
-}*/
-/*.scaleIn {
-  -webkit-animation-name: scaleIn;
-  animation-name: scaleIn;
-}
-@-webkit-keyframes scaleIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes scaleIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-}*/
 /*************************
 *******Header******
 **************************/
@@ -190,107 +127,6 @@ ul.nostyle i {
     background-color: transparent;
   }
 }
-/*
-#main-slider {
-  overflow: hidden;
-}
-#main-slider .item {
-  height: 558px;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-}
-#main-slider .slider-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #fff;
-}
-#main-slider .slider-inner h2 {
-  margin-top: 180px;
-  font-size: 36px;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #fff;
-}
-#main-slider .slider-inner h2 > span {
-  color: #45aed6;
-}
-#main-slider .slider-inner .btn {
-  margin-top: 10px;
-}
-#main-slider .owl-prev,
-#main-slider .owl-next {
-  position: absolute;
-  top: 50%;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  font-size: 30px;
-  display: inline-block;
-  margin-top: -35px;
-  height: 70px;
-  width: 70px;
-  line-height: 70px;
-  text-align: center;
-  border-radius: 100px;
-  z-index: 5;
-  -webkit-transition: background-color 400ms;
-  transition: background-color 400ms;
-}
-#main-slider .owl-prev:hover,
-#main-slider .owl-next:hover {
-  background-color: #45aed6;
-}
-#main-slider .owl-prev {
-  left: -35px;
-  text-indent: 14px;
-}
-#main-slider .owl-next {
-  right: -35px;
-  text-indent: -14px;
-}*//*
-#bar {
-  width: 0%;
-  max-width: 100%;
-  height: 4px;
-  background: #45aed6;
-}
-#progressBar {
-  margin-top: -4px;
-  position: relative;
-  z-index: 999;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.1);
-}*/
-
-/*
-#cta {
-  padding: 50px 0;
-  background-color: #eeeeee;
-}
-#cta h2 {
-  margin-top: 0;
-}
-#cta2 {
-  background: #242a33 url(../images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  color: #fff;
-  padding-top: 70px;
-}
-#cta2 .btn {
-  margin-top: 10px;
-}
-#cta2 h2 {
-  color: #fff;
-  font-size: 44px;
-  line-height: 1;
-}
-#cta2 h2 > span {
-  color: #45aed6;
-}*/
-
 
 #features {
   padding: 100px 0;
@@ -925,32 +761,17 @@ E
 
 .home-section {
     height: 100%;
-
 }
+
 .home-section-background {
     position: relative;
     background: url(../images/02.jpg);
     background-size: cover;
-/*    background-position: center;
-*/    background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
     color: #cfcfcf;
     height: 600px;
     z-index: 1;
-    
-
 }
-
-/*.home-section-background:after {
-    position: absolute;
-    background: rgba(0, 0, 0, .7);
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    z-index: -1;
-}*/
 
 .display-table {
     display: table;
@@ -976,8 +797,8 @@ E
     color: #f8f8f8;
     letter-spacing: 3px;
     font-size: 16px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	  margin-top: 40px;
+  	margin-bottom: 20px;
 }
 
 .typed-cursor{
@@ -1015,16 +836,8 @@ E
     transition: all 0.4s ease-out;
 }
 
-/*.home-section-background{
-	padding: 125px;
-}*/
-
 
 @media only screen and (max-width: 767px) {
-/*	.home-section-background {
-       padding-top: 120px;
-    }*/
-
     .home-section-background h2 {
         font-size: 32px;
     }
@@ -1067,35 +880,27 @@ E
 
 
 .grid1 { 
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-gap: 30px 15px;
-  
-
-  }
-.grid1 img {
-  height: 50px;
-  width: 50px;
-  justify-self: center;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 30px 15px;
 }
 
-
+.grid1 img {
+    height: 50px;
+    width: 50px;
+    justify-self: center;
+}
 
 .projects{
-align-items: center;
-/*justify-content: center;*/
-/*text-align: right;*/
-padding: 0 15% 0 15%;
+    align-items: center;
+    padding: 0 15% 0 15%;
 }
 
 .teammates{
-padding: 0 20% 0 20%;
-
+    padding: 0 20% 0 20%;
 }
 
 .edu{
-
     background: url(../images/01.jpg);
     background-size: cover;
     background-position: center;
@@ -1103,13 +908,10 @@ padding: 0 20% 0 20%;
     background-repeat: no-repeat;
     color: #cfcfcf;
     height: 300px;
-/*    display: block;
-        box-sizing: border-box;*/
-
   }
 
-  .overlay1{
-        background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+.overlay1{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     background-position-x: initial;
     background-position-y: initial;
@@ -1120,31 +922,28 @@ padding: 0 20% 0 20%;
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-        height: 300px;
+    height: 300px;
     background-attachment: fixed;
-  }
-
-.overlay2{
-  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: fixed;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-        height: 350px;
-    background-attachment: fixed;
-
-
 }
 
-.collab {
+.overlay2{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    height: 350px;
+    background-attachment: fixed;
+}
 
-   background: url(../images/03.jpg);
+.collab{
+    background: url(../images/03.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1154,14 +953,23 @@ padding: 0 20% 0 20%;
 }
 
 .ucr{
- background: url(../images/04.jpg);
+    background: url(../images/04.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
     height: 300px;
-
 }
 
+#edText{
+    font-weight: bold;
+    font-size: large;
+    color: #1c51a8;
+}
 
+#edText2{
+    font-weight: bold;
+    font-size: large;
+    color: #7c7c7c;
+}
