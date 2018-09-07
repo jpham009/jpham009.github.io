@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
 
+@-ms-viewport{
+  width: device-width;
+}
+
 body {
   padding-top: 100px;
   background: #fff;
@@ -972,4 +976,21 @@ E
     font-weight: bold;
     font-size: large;
     color: #7c7c7c;
+}
+
+
+.feature-callout {
+    font: 0/0 a;
+    width: 12px;
+    height: 12px;
+    background: #FFDD40;
+    top: -4px;
+    left: 17px;
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 0 0 0 rgba(255,221,65,0.4);
+    -webkit-animation: feature-pulse 2s infinite;
+    animation: feature-pulse 2s infinite;
+    opacity: 1;
+    transition: all 0.3s ease;
 }
