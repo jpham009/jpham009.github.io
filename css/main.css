@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
 
 @-ms-viewport{
   width: device-width;
@@ -53,7 +53,7 @@ hr {
 
 }
 .section-header .section-title {
-  font-size: 44px;
+  font-size: 38px;
   color: #272727;
   text-transform: uppercase;
   position: relative;
@@ -395,6 +395,7 @@ hr {
   border: 2px solid #eeeeee;
   transition: border-color 400ms;
   -webkit-transition: border-color 400ms;
+  border-radius: 25px;
 }
 #meet-team .team-member .team-img {
   margin: -15px -15px 0 -15px;
@@ -807,9 +808,14 @@ E
 
 .typed-cursor{
     opacity: 1;
+    font-size: 38px;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+}
+
+.typing{
+  font-size: 38px;
 }
 
 @keyframes blink{
@@ -993,4 +999,9 @@ E
     animation: feature-pulse 2s infinite;
     opacity: 1;
     transition: all 0.3s ease;
+}
+
+#_welcome{
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
