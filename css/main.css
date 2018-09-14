@@ -60,6 +60,8 @@ hr {
   padding-bottom: 20px;
   margin: 0 0 40px;    
   text-shadow: 5px 10px 15px #CCCCCC;
+  letter-spacing: 3px;
+
 }
 
 /*************************
@@ -764,9 +766,9 @@ E
 }
 
 
-.home-section {
+/*.home-section {
     height: 100%;
-}
+}*/
 
 .home-section-background {
     position: relative;
@@ -780,13 +782,15 @@ E
 
 .display-table {
     display: table;
-    width: 100%;
     height: 100%;
+    width: 100%;
+    
 }
 
 .display-table-cell {
     display: table-cell;
     vertical-align: middle;
+    
 }
 
 .header-text {}
@@ -816,6 +820,7 @@ E
 
 .typing{
   font-size: 38px;
+
 }
 
 @keyframes blink{
