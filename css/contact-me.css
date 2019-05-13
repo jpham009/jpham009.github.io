@@ -4,33 +4,25 @@
   width: auto;
   height: auto;
 }
-.contact-me > a {
-  display: block;
-/*  width: 220px;
-  height: 70px;*/
-  z-index: 1;
-}
 .contact-me > a:after {
   content: '';
-  background: linear-gradient(120deg, #6559ae, #ff7159, #6559ae, #26f26a);
+  background: linear-gradient(135deg, #FF0000,#E91E63,#9C27B0,#2196F3,#00BCD4,#4CAF50,#FF5722,#FF0000);
   background-size: 400% 400%;
   -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
-  -moz-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
-  -webkit-animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
-  animation: gradient 3s ease-in-out infinite, border 1s forwards ease-in-out reverse;
+  -moz-animation: gradient 2000ms ease-in-out infinite, border 1000ms forwards ease-in-out reverse;
+  -webkit-animation: gradient 2000ms ease-in-out infinite, border 1000ms forwards ease-in-out reverse;
+  animation: gradient 2000ms ease-in-out infinite, border 1000ms forwards ease-in-out reverse;
 }
 .contact-me > a {
   display: block;
-  background: linear-gradient(120deg, #6559ae, #ff7159, #6559ae, #26f26a);
+  background: linear-gradient(135deg, #FF0000,#E91E63,#9C27B0,#2196F3,#00BCD4,#4CAF50,#FF5722,#FF0000);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-animation: gradient 3s ease-in-out infinite;
-  -webkit-animation: gradient 3s ease-in-out infinite;
-  animation: gradient 3s ease-in-out infinite;
+  -moz-animation: gradient 2000ms ease-in-out infinite;
+  -webkit-animation: gradient 2000ms ease-in-out infinite;
+  animation: gradient 2000ms ease-in-out infinite;
 }
-
-
 
 /* helpers */
 .contact-me > a, a:after{
@@ -49,6 +41,8 @@
   line-height: 70px;
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
+  /*-webkit-text-stroke: .001px #444444;*/
+  text-shadow: 3px 5px 10px #bbbbbb;
 }
 
 

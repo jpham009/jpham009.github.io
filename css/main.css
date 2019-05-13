@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 @-ms-viewport{
   width: device-width;
 }
 
 body {
-  padding-top: 100px;
+  padding-top: 0px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -54,12 +55,13 @@ hr {
 }
 .section-header .section-title {
   font-size: 38px;
+  font-family: Lato;
   color: #272727;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 40px;    
-  text-shadow: 5px 10px 15px #CCCCCC;
+  text-shadow: 2px 3px 5px #aaaaaa;
   letter-spacing: 3px;
 
 }
@@ -71,13 +73,16 @@ hr {
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-size: 13px;
 }
 .navbar.navbar-default .navbar-toggle {
-  margin-top: 32px;
+  margin-top: 12px;
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
-  padding: 22px 15px 21px;
+  padding: 5px 15px 0px;
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
@@ -86,15 +91,15 @@ hr {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 12px;
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
     background: transparent;
-    padding-top: 37px;
-    border-top: 3px solid #45aed6;
+    padding-top: 18px;
+    border-top: 2px solid #1c51a8;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
@@ -132,6 +137,10 @@ hr {
     color: #45aed6;
     background-color: transparent;
   }
+}
+
+.media-heading {
+  /*font-family: 'Lato';*/
 }
 
 #features {
@@ -718,6 +727,7 @@ hr {
 #contact .contact-form h3 {
   margin-top: 0;
 }
+
 /***********************
 ********* Footer ******
 ************************/
@@ -726,6 +736,9 @@ hr {
   padding-bottom: 30px;
   color: #fff;
   background: #2e2e2e;
+  font-family: 'Lato';
+  font-size: 12px;
+  /*text-transform: uppercase;*/
 }
 #footer a {
   color: #fff;
@@ -772,13 +785,20 @@ E
 
 .home-section-background {
     position: relative;
-    background: url(../images/02.jpg);
-    background-size: cover;
+    background-color: black;
+    background-image: url(../images/02.jpg) right;
+    background-size: contain, cover;
+    /*background-size: cover;*/
     background-repeat: no-repeat;
+    overflow: auto;
+    align-content: flex-end;
+
     color: #cfcfcf;
-    height: 600px;
-    z-index: 1;
+    height: 500px;
+    margin-top: 0px;
+    /*z-index: 1;*/
 }
+
 
 .display-table {
     display: table;
@@ -799,15 +819,16 @@ E
     color: #f8f8f8;
     font-size: 32px;
     letter-spacing: 4px;
-    margin: 0;
+    margin-left: 10px;
 }
 
 .home-section-background p {
     color: #f8f8f8;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-size: 16px;
 	  margin-top: 40px;
   	margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .typed-cursor{
@@ -898,6 +919,11 @@ E
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 30px 15px;
+    text-shadow: 1px 1px 1px #dddddd;
+    font-size: 12px;
+    /*font-family: 'Lato';*/
+    /*text-transform: uppercase;*/
+
 }
 
 .grid1 img {
@@ -922,7 +948,7 @@ E
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-    height: 300px;
+    height: 200px;
   }
 
 .overlay1{
@@ -937,7 +963,7 @@ E
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-    height: 300px;
+    height: 200px;
     background-attachment: fixed;
 }
 
@@ -953,7 +979,7 @@ E
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-    height: 350px;
+    height: 200px;
     background-attachment: fixed;
 }
 
@@ -964,7 +990,7 @@ E
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-    height: 300px;
+    height: 200px;
 }
 
 .ucr{
@@ -974,19 +1000,30 @@ E
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-    height: 300px;
+    height: 200px;
 }
 
 #edText{
     font-weight: bold;
     font-size: large;
     color: #1c51a8;
+    text-shadow: 1px 1px 1px #dddddd;
 }
 
 #edText2{
     font-weight: bold;
     font-size: large;
     color: #7c7c7c;
+    text-shadow: 1px 1px 1px #dddddd;
+}
+
+#edText3{
+    font-family: "Courier";
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    font-size: 12px; 
+    color: #aaaaaa;
+    text-shadow: 1px 1px 1px #dddddd;
 }
 
 
