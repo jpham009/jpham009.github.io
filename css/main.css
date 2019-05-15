@@ -6,7 +6,7 @@
 }
 
 body {
-  padding-top: 0px;
+  padding-top: 62px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -782,12 +782,24 @@ E
 /*.home-section {
     height: 100%;
 }*/
+.home-section-background .bar1{
+  background-image: url('../images/02.jpg');
+  height: 20px;
+  /*filter: blur(5px);*/
+}
 
 .home-section-background {
     position: relative;
     background-color: black;
-    background-image: url(../images/02.jpg) right;
-    background-size: contain, cover;
+    background: url(../images/02.jpg) no-repeat center center fixed;
+    
+
+    /*animation: reveal ease .8s 1 forwards;*/
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     /*background-size: cover;*/
     background-repeat: no-repeat;
     overflow: auto;
@@ -797,6 +809,9 @@ E
     height: 500px;
     margin-top: 0px;
     /*z-index: 1;*/
+}
+.home-section{
+
 }
 
 
@@ -950,6 +965,21 @@ E
     color: #cfcfcf;
     height: 200px;
   }
+.edu .bar2 {
+
+  /*// Inherit, blur & brighten the background for the glass effect*/
+  /*background: inherit;*/
+  filter: blur(5px) brightness(1.1);
+  /*// Rargin & size increase to hide the blurry border*/
+  background-size: calc(100% + 6px) auto;
+  margin:0px;
+
+  /*background-position: center bottom;*/
+  content: ""; display: block;
+  /*position: absolute; top: 0; bottom: 0; left: 0; right: 0;*/
+  z-index:-1;
+
+}
 
 .overlay1{
     background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
@@ -985,6 +1015,7 @@ E
 
 .collab{
     background: url(../images/03.jpg);
+    filter: blur(1px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -995,6 +1026,7 @@ E
 
 .ucr{
     background: url(../images/04.jpg);
+    filter: blur(1px);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1022,7 +1054,7 @@ E
     font-weight: bold; 
     letter-spacing: 1px; 
     font-size: 12px; 
-    color: #aaaaaa;
+    color: #888888;
     text-shadow: 1px 1px 1px #dddddd;
 }
 
@@ -1047,3 +1079,11 @@ E
     font-size: 24px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/*.footbr {
+   display: block;
+   margin-top: 0;
+   line-height: 0px;
+   content: " ";
+}
+*/
