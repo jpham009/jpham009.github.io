@@ -783,11 +783,10 @@ E
 /*.home-section {
     height: 100%;
 }*/
-.home-section-background .bar1{
+/*.home-section-background .bar1{
   background-image: url('../images/02.jpg');
   height: 20px;
-  /*filter: blur(5px);*/
-}
+}*/
 
 .home-section-background {
     position: relative;
