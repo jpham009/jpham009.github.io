@@ -810,11 +810,13 @@ E
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    overflow: auto;
+    /*overflow: auto;*/
+    /*display: inline-block;*/
+    overflow: hidden;
     align-content: flex-end;
 
     color: #cfcfcf;
-    height: 500px;
+    height: 800px;
     margin-top: 0px;
     /*z-index: 1;*/
 }
